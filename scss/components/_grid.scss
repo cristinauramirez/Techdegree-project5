@@ -5,6 +5,9 @@
   }
   &__row {
     padding: 16px;
+    @include mq(medium) {
+      @include flex (space-around);
+    }
   }
 }
 

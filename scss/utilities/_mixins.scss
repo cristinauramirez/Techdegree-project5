@@ -36,6 +36,14 @@
     }
   }
   @else {
-    @error "Whoops! No value could be retrieved for `#{$break}`."
+    @error "Whoops! No value could be retrieved for `#{$break}`.";
   }
+}
+
+// Flexbox Mixin
+
+@mixin flex ($just-cont: null, $direct: null) {
+  display: flex;
+  justify-content: $just-cont;
+  flex-direction: $direct;
 }

@@ -1,4 +1,10 @@
 
+.nav {
+  @include mq(medium) {
+    @include flex(flex-end);
+  }
+}
+
 .nav__item {
   @extend %nav;
   a {

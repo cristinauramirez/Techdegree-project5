@@ -12,4 +12,8 @@
     font-weight: $font-weight--bold;
     outline: none;
   }
+  @include mq(medium) {
+    margin-left: 15px;
+    padding-top: 20px;
+  }
 }
