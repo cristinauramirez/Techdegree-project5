@@ -11,12 +11,6 @@
   }
 }
 
-.grid__col {
-  @include mq(medium) {
-    @include g-columns;
-  }
-}
-
 [class^="grid__col--"] {
   width: 100%;
   padding: 10px;
@@ -24,6 +18,12 @@
   color: $dark-font;
   margin-top: 12px;
   margin-bottom: 12px;
+}
+
+.grid__col {
+  @include mq(medium) {
+    @include g-columns;
+  }
 }
 
 .container {

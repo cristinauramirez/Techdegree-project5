@@ -6,9 +6,11 @@
 ul {
   padding: 0;
   list-style-type: none;
+  font-weight: $font-weight--light;
 }
 
 p {
   color: $dark-font;
   font-size: 18px;
+  font-weight: $font-weight--thin;
 }
