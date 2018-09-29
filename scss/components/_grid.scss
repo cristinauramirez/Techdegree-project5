@@ -1,4 +1,22 @@
 
+.grid {
+  @include e(col) {
+    @include colors($grid-colors);
+  }
+  &__row {
+    padding: 16px;
+  }
+}
+
+[class^="grid__col--"] {
+  width: 100%;
+  padding: 10px;
+  border-radius: $b-radius;
+  color: $dark-font;
+  margin-top: 12px;
+  margin-bottom: 12px;
+}
+
 .container {
   width: 90%;
   margin: 40px auto;

@@ -1,4 +1,12 @@
 
+// BEM Selector
+
+@mixin e($element) {
+  &__#{$element} {
+    @content;
+  }
+}
+
 // Button Mixin
 
 @mixin colors($map) {

@@ -423,6 +423,31 @@ p {
   font-weight: 600;
   outline: none; }
 
+.grid__col--12.theme__colors {
+  background-color: rgba(66, 244, 209, 0.7); }
+.grid__col--6.theme__colors {
+  background-color: #0ba8c5; }
+.grid__col--4.theme__colors {
+  background-color: rgba(66, 217, 244, 0.5); }
+.grid__col--3.theme__colors {
+  background-color: rgba(146, 121, 195, 0.6); }
+.grid__col--5.theme__colors {
+  background-color: rgba(94, 206, 127, 0.7); }
+.grid__col--7.theme__colors {
+  background-color: rgba(230, 116, 120, 0.7); }
+.grid__col--8.theme__colors {
+  background-color: rgba(255, 120, 79, 0.8); }
+.grid__row {
+  padding: 16px; }
+
+[class^="grid__col--"] {
+  width: 100%;
+  padding: 10px;
+  border-radius: 5px;
+  color: #6c6c6c;
+  margin-top: 12px;
+  margin-bottom: 12px; }
+
 .container {
   width: 90%;
   margin: 40px auto; }
