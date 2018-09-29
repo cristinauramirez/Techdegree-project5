@@ -1,0 +1,25 @@
+
+.headline {
+  &--primary {
+    @extend %hdln-primary;
+    margin-bottom: 40px;
+  }
+  &--secondary {
+    @extend %hdln-secondary;
+  }
+}
+
+.link {
+  @extend %links;
+  color: $color-secondary;
+}
+
+.blockquote {
+  color: $x-dark-font;
+  font-weight: $font-weight--thin;
+  font-size: 25px;
+  font-size: italic;
+  border-left: 10px solid $color-primary;
+  border-radius: $b-radius;
+  padding-left: 12px;
+}
