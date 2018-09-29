@@ -11,6 +11,12 @@
   }
 }
 
+.grid__col {
+  @include mq(medium) {
+    @include g-columns;
+  }
+}
+
 [class^="grid__col--"] {
   width: 100%;
   padding: 10px;
