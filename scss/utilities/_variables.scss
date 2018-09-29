@@ -1,0 +1,60 @@
+
+// Font Weights
+
+$font-weight--thin       : 100;
+$font-weight--light      : 300;
+$font-weight--medium     : 400;
+$font-weight--bold       : 600;
+$font-weight--ultra-bold : 900;
+
+// Colors
+
+$grey       : #808080;
+$light-font : lighten($grey, 12%);
+$dark-font  : darken($grey, 8%);
+$x-dark-font: darken($grey, 16%);
+
+$color-primary  : #42f4d1;
+$color-secondary: #42d9f4;
+
+$emerald        : #5ece7f;
+$sunglo         : #e67478;
+$coral          : #ff784f;
+$purple-majesty : #9279c3;
+
+// Button Colors
+
+$btn-colors: (
+  default: $color-secondary,
+  success: $emerald,
+  error  : $sunglo,
+  warning: $coral,
+  info   : $purple-majesty
+);
+
+$grid-colors: (
+  12: rgba($color-primary, .7),
+  6 : darken($color-secondary, 20%),
+  4 : rgba($color-secondary, .5),
+  3 : rgba($purple-majesty, .6),
+  5 : rgba($emerald, .7),
+  7 : rgba($sunglo, .7),
+  8 : rgba($coral, .8)
+);
+
+// Border
+
+$b-radius: 5px;
+
+// Brealpoints
+
+$brkpoint-sm: 1px;
+$brkpoint-md: 768px;
+$brkpoint-lg: 1100px;
+
+// Grid
+
+$g-col-width    : 65px;
+$g-gutter-width : 20px;
+$g-col-count    : 12;
+$g-cont-max-w   : 1050px;
