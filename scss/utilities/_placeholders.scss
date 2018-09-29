@@ -31,3 +31,16 @@
   font-weight: $font-weight--thin;
   padding-top: 40px;
 }
+
+// Buttons
+
+%btn {
+  padding: 16px;
+  border: 0;
+  border-radius: $b-radius;
+  color: white;
+  text-transform: uppercase;
+  font-size: 14px;
+  font-weight: $font-weight--medium;
+  display: block;
+}

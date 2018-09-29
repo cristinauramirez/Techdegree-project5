@@ -21,6 +21,16 @@
   font-weight: 100;
   padding-top: 40px; }
 
+[class^=btn--] {
+  padding: 16px;
+  border: 0;
+  border-radius: 5px;
+  color: white;
+  text-transform: uppercase;
+  font-size: 14px;
+  font-weight: 400;
+  display: block; }
+
 /*! normalize.css v2.1.0 | MIT License | git.io/normalize */
 /* ==========================================================================
    HTML5 display definitions
@@ -363,6 +373,24 @@ ul {
 p {
   color: #6c6c6c;
   font-size: 18px; }
+
+.btn--default.theme__colors {
+  background-color: #42d9f4; }
+.btn--success.theme__colors {
+  background-color: #5ece7f; }
+.btn--error.theme__colors {
+  background-color: #e67478; }
+.btn--warning.theme__colors {
+  background-color: #ff784f; }
+.btn--info.theme__colors {
+  background-color: #9279c3; }
+
+[class^=btn--] {
+  text-align: center;
+  margin-top: 20px; }
+  @media (min-width: 1px) and (max-width: 768px) {
+    [class^=btn--] {
+      width: 100%; } }
 
 .nav__item a {
   color: #6c6c6c; }
