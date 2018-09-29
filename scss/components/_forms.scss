@@ -1,0 +1,15 @@
+
+.form {
+  &__label--hidden {
+    display: none;
+  }
+  &__input {
+    width: 100%;
+    padding: 10px;
+    margin-top: 15px;
+    border: none;
+    border-bottom: 6px solid $color-primary;
+    font-weight: $font-weight--bold;
+    outline: none;
+  }
+}

@@ -4,4 +4,15 @@
     display: block;
     margin: 0 auto;
   }
+  &--frame {
+    border: 1px solid $light-font;
+    padding: 15px;
+    margin-top: 20px;
+    width: 100%;
+  }
+  &--avatar {
+    display: block;
+    margin: 0 auto;
+    margin-top: 24px;
+  }
 }
