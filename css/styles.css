@@ -14,12 +14,14 @@
   color: #42f4d1;
   font-size: 35px;
   margin-top: 0;
-  padding-left: 20px; }
+  padding-left: 20px;
+  text-align: left; }
 
 .headline--secondary {
   color: #9f9f9f;
   font-weight: 100;
-  padding-top: 40px; }
+  padding-top: 40px;
+  text-align: left; }
 
 [class^=btn--] {
   padding: 16px;
@@ -374,7 +376,8 @@ ul {
 p {
   color: #6c6c6c;
   font-size: 18px;
-  font-weight: 100; }
+  font-weight: 100;
+  text-align: left; }
 
 .btn--default.theme__colors {
   background-color: #42d9f4; }
@@ -460,7 +463,8 @@ p {
   @media (min-width: 768px) {
     .grid__row {
       display: flex;
-      justify-content: space-around; } }
+      justify-content: space-around;
+      text-align: center; } }
 
 [class^="grid__col--"] {
   width: 100%;
@@ -513,6 +517,7 @@ p {
   font-style: italic;
   border-left: 10px solid #42f4d1;
   border-radius: 5px;
-  padding-left: 12px; }
+  padding-left: 12px;
+  text-align: left; }
 
 /*# sourceMappingURL=styles.css.map */
