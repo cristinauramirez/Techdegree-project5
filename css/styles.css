@@ -374,9 +374,7 @@ ul {
   font-weight: 300; }
 
 p {
-  color: #6c6c6c;
   font-size: 18px;
-  font-weight: 100;
   text-align: left; }
 
 .btn--default.theme__colors {
@@ -502,7 +500,9 @@ p {
 
 .container {
   width: 90%;
-  margin: 40px auto; }
+  margin: 40px auto;
+  font-weight: 100;
+  color: #6c6c6c; }
 
 .headline--primary {
   margin-bottom: 40px; }
